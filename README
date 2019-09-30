@@ -1,0 +1,27 @@
+Game of Life
+Simulation of John Conway’s Game of Life written in C++.
+It is a cellular automation program that runs through an algorithm to test whether
+a cell will die, survive, or become alive based on the number of neighbors it has.
+If the cell is dead and it has exactly 3 neighbors, it becomes alive.
+If the cell is alive and has less then 2 neighbors, it dies due to under population.
+If the cell is alive and has 2 or 3 neighbors, it lives.
+If the cell is alive and has more then 3 neighbors, it dies due to overpopulation.
+Dead cells are represented by a '.'
+Alive cells are represented by a '*'
+
+Getting Started
+Run the main.cpp along with the Game_Of_Life.cpp and Game_Of_Life.h files to run the program.
+You will be prompted to insert a .txt file.
+Example .txt files of an exploder and a glider are included with the repository.
+If you would like to make your own cell map, it needs to be a square, that is, it needs
+to have the same amount of rows as columns. It can be as big as you want, however, bigger maps
+may not run as fast.
+
+You will be asked if you want to automate the process.
+This means that the program will run automatically and display the map
+every second. To quit, hit CTRL-C.
+If you do not automate it, you will be asked every time the map prints if you would like to continue.
+Inputting 'n' will quit the program.
+
+Authors
+Lex Graham
