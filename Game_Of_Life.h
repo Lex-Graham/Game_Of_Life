@@ -5,7 +5,7 @@ using namespace std;
 
 #ifndef GAME_OF_LIFE_H
 #define GAME_OF_LIFE_H
-class game_of_life{
+class Game_Of_Life{
 public:
 	void read();
 	void run();
